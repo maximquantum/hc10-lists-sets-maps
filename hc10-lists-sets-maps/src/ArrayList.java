@@ -4,7 +4,7 @@ import java.util.stream.IntStream;
 /**
  * @invariant | toArray().length == getSize() 
  */
-public class ArrayList {
+public class ArrayList implements List {
 	/**
 	 * @invariant | arr != null
 	 * @representationObject
