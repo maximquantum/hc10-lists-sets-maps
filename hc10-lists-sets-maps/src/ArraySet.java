@@ -19,7 +19,7 @@ public class ArraySet implements Set {
 	public int getSize() {
 		return a.getSize();
 	}
-
+	
 	@Override
 	public void add(Object value) {
 		a.add(value);
